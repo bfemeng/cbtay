@@ -2,12 +2,11 @@ body {
 	margin: 0;
 	padding: 0;
 	font-family: Arial, sans-serif;
-	background-color: lightblue;
 }
 
 header {
-	background-color: #333;
-	color: #fff;
+	background-color: #ffffff;
+	color: #000000;
 	padding: 20px;
 }
 
@@ -31,8 +30,8 @@ nav li:last-child {
 }
 
 nav a {
-	color: #fff;
-	text-decoration: none;
+	color: #000000;
+	text-decoration: underline;
 }
 
 main {
@@ -72,4 +71,4 @@ form input[type="submit"] {
 	cursor: pointer;
 }
 
-
+form input[type="submit
