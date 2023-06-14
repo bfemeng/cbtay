@@ -83,6 +83,7 @@ p {
   .services-container {
 	background-color: #f0f0f0;
 	font-size: 34px;
+	-ms-flex-align: center;
 	text-align: center; /* Centers the image horizontally */
 	display: block; /* Ensures proper alignment and margin auto works correctly */
 	margin-left: auto;
