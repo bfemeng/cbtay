@@ -5,12 +5,14 @@ body {
 	padding: 0;
 	font-family: Arial, sans-serif;
     font-size: larger;
+	background-color: #9F082D;
 }
 
 header {
-	background-color: #f2e9e9;
-	color: #000000;
-	padding: 20px;
+	background-color: #fdf9f9;
+	color: #030303;
+	padding: 40px;
+	border-radius: 80px;
 }
 
 h1 {
@@ -23,35 +25,19 @@ h1 {
 
 .image-container {
 	text-align: center; /* Centers the image horizontally */
+	border-radius: 50px 50px 50px 50px;
   }
   
-  .image-container img {
+.image-container img {
 	display: block; /* Ensures proper alignment and margin auto works correctly */
 	margin-left: auto;
 	margin-right: auto;
 	max-width: 100%; /* Adjust the maximum width as needed */
 	height: auto; /* Maintains the aspect ratio of the image */
+	border-radius: 50px 50px 50px 50px;
   }
 
-nav ul {
-	margin: 0;
-	padding: 0;
-	list-style: none;
-	display: flex;
-}
 
-nav li {
-	margin-right: 20px;
-}
-
-nav li:last-child {
-	margin-right: 0;
-}
-
-nav a {
-	color: #000000;
-	text-decoration: underline;
-}
 
 main {
 	padding: 20px;
@@ -80,6 +66,7 @@ p {
 	background-color: #f0f0f0;
 	padding: 20px;
 	border-radius: 5px;
+	border-radius: 100px 100px 100px 100px;
   }
   
   .bio-section h2 {
@@ -92,6 +79,45 @@ p {
 	line-height: 1.5;
   }
 
+
+  .services-container {
+	background-color: #f0f0f0;
+	font-size: 34px;
+	text-align: center; /* Centers the image horizontally */
+	display: block; /* Ensures proper alignment and margin auto works correctly */
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 100%; /* Adjust the maximum width as needed */
+	height: auto; /* Maintains the aspect ratio of the image */
+	border-radius: 500px 500px 500px 500px;
+	width: 50%; /* Adjust the percentage as needed */
+	height: 50%; /* Adjust the percentage as needed */
+  }
+
+  .centered-ul {
+	display: flex;
+	justify-content: center;
+	line-height: 1.5;
+	font-size: 26px;
+	.centered-ul {
+		display: flex;
+		justify-content: center;
+		line-height: 1.5;
+		font-size: 26px;
+		list-style-type: none;
+	}
+}
+
+.gallery-section {
+	background-color: #f0f0f0;
+	font-size: 34px;
+	padding: 20px;
+	border-radius: 5px;
+	border-radius: 100px 100px 100px 100px;
+  }
+
+
+
 form label, form input, form textarea {
 	display: block;
 	margin-bottom: 10px;
@@ -101,12 +127,12 @@ form label, form input, form textarea {
 }
 
 form input[type="submit"] {
-	background-color: #9f1888;
-	color: #fff;
-	padding: 20px 30px;
-	border: none;
+	background-color: #b88996;
+	color: #000000;
+	padding: 10px 10px;
+	border-radius: 10px;
 	cursor: pointer;
-	font-size: large;
+	font-size: 34px;
 	max-width: 100%; /* Adjust the maximum width as needed */
 }
 
@@ -114,6 +140,7 @@ form input[type="submit"] {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	border-radius: 100px 100px 100px 100px;
   }
   
   .form-container input {
@@ -132,9 +159,12 @@ form input[type="submit"] {
   }
 
 .contact-info {
-	background-color: #858484;
-	padding: 10px;
+	background-color: #f2e5e5;
+	padding: 30px;
 	margin-top: 20px;
+	line-height: 1.5;
+	font-size: 24px;
+	border-radius: 40px;
   }
   
   footer {
