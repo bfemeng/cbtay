@@ -15,7 +15,23 @@ header {
 
 h1 {
 	margin: 0;
+	font-size: 64px;
+	display: flex;
+	justify-content: center; /* Centers the image horizontally */
+	align-items: center; /* Centers the image vertically */
 }
+
+.image-container {
+	text-align: center; /* Centers the image horizontally */
+  }
+  
+  .image-container img {
+	display: block; /* Ensures proper alignment and margin auto works correctly */
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 100%; /* Adjust the maximum width as needed */
+	height: auto; /* Maintains the aspect ratio of the image */
+  }
 
 nav ul {
 	margin: 0;
@@ -46,33 +62,86 @@ section {
 }
 
 h2 {
-	margin-top: 0;
-}
-
-ul {
 	margin: 0;
-	padding: 0;
-	list-style: none;
+	display: flex;
+	justify-content: center; /* Centers the image horizontally */
+	align-items: center; /* Centers the image vertically */
 }
 
-footer {
+p {
+	margin: 0;
+	display: flex;
+	justify-content: center; /* Centers the image horizontally */
+	align-items: center; /* Centers the image vertically */
+	font-size: 26px;
+}
+
+.bio-section {
+	background-color: #f0f0f0;
+	padding: 20px;
+	border-radius: 5px;
+  }
+  
+  .bio-section h2 {
+	font-size: 44px;
+	margin-bottom: 10px;
+  }
+  
+  .bio-section p {
+	font-size: 26px;
+	line-height: 1.5;
+  }
+
+form label, form input, form textarea {
+	display: block;
+	margin-bottom: 10px;
+	display: flex;
+	justify-content: center; /* Centers the image horizontally */
+	align-items: center; /* Centers the image vertically */
+}
+
+form input[type="submit"] {
+	background-color: #9f1888;
+	color: #fff;
+	padding: 20px 30px;
+	border: none;
+	cursor: pointer;
+	font-size: large;
+	max-width: 100%; /* Adjust the maximum width as needed */
+}
+
+.form-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+  }
+  
+  .form-container input {
+	width: 100%;
+	max-width: auto; /* Adjust the maximum width as needed */
+	margin-bottom: 10px;
+	
+  }
+  
+  .form-container textarea {
+	justify-content: center; /* Centers the image horizontally */
+	align-items: center; /* Centers the image vertically */
+	width: 100%;
+	max-width: auto; /* Adjust the maximum width as needed */
+	margin-bottom: 10px;
+  }
+
+.contact-info {
+	background-color: #858484;
+	padding: 10px;
+	margin-top: 20px;
+  }
+  
+  footer {
 	background-color: #0f0e0e;
     color: #fffcfd;
 	padding: 20px;
 	text-align: center;
     font-family: Arial, sans-serif;
     font-size: large;
-}
-
-form label, form input, form textarea {
-	display: block;
-	margin-bottom: 10px;
-}
-
-form input[type="submit"] {
-	background-color: #333;
-	color: #fff;
-	padding: 10px 20px;
-	border: none;
-	cursor: pointer;
 }
