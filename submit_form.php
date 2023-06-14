@@ -4,15 +4,18 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
   $email = $_POST["email"];
   $message = $_POST["message"];
 
-  $to = "Shante@cbtayconsulting.com; 
+  // Set up email content
+  $to = "Shante@cbtayconsulting.com"; // Your email address
   $subject = "New form submission";
-  $body = "Name: $name\nEmail: $email\nMessage: $message";
+  $body = "Name: " . $name . "\n";
+  $body .= "Email: " . $email . "\n";
+  $body .= "Message: " . $message . "\n";
 
-// Send email
-  if (mail($to, $subject, $body)) {
-    echo "Thank you for your submission!";
-  } else {
-    echo "Sorry, there was an error sending your message.";
-  }
+  // Send email
+  mail($to, $subject, $body);
+
+  // Redirect the user to a thank you page
+  header("Location: thank-you.html");
+  exit;
 }
 ?>

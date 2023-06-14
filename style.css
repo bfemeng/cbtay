@@ -126,7 +126,7 @@ form label, form input, form textarea {
 	align-items: center; /* Centers the image vertically */
 }
 
-form input[type="submit"] {
+button {
 	background-color: #b88996;
 	color: #000000;
 	padding: 10px 10px;
