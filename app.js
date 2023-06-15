@@ -20,18 +20,14 @@
 // }
 
 
-function sendMail() {
-        emailjs.init("service_nb5ri47");
-      
 
+function sendMail() {
     var params = {
       name: document.getElementById("name").value,
       email: document.getElementById("email").value,
       message: document.getElementById("message").value,
     };
-  
-    document.getElementById('contact-form').addEventListener('submit', function (event) {
-        event.preventDefault();
+
 
     const serviceID = "service_nb5ri47";
     const templateID = "template_h5tp5ih";
@@ -43,9 +39,7 @@ function sendMail() {
           document.getElementById("message").value = "";
           console.log(res);
           alert("Your message was sent successfully!!")
-  
       })
-    }
-      .catch(err=>console.log(err)));
-  
-  }
+    
+      .catch(err=>console.log(err));
+}
