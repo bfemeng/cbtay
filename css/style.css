@@ -37,13 +37,14 @@ h1 {
 
 
 
-main {
+/* main {
 	padding: 20px;
-}
+} */
 
+/* 
 section {
 	margin-bottom: 20px;
-}
+} */
 
 h2 {
 	margin: 0;
@@ -96,7 +97,7 @@ p {
   .publishing-container {
 	background-color: #f0f0f0;
 	font-size: 34px;
-	-ms-flex-align: center;
+	margin-bottom: 15%;
 	text-align: center; /* Centers the image horizontally */
 	display: block; /* Ensures proper alignment and margin auto works correctly */
 	margin-left: auto;
@@ -108,7 +109,18 @@ p {
 	height: 50%; /* Adjust the percentage as needed */
   }
 
-
+.coming-info {
+	background-color: #000000;
+	color:#ddd;
+	font-size: 34px;
+	padding: 10%;
+	margin-bottom: 15%;
+	display: block;
+	margin-bottom: 10px;
+	display: flex;
+	justify-content: center; /* Centers the image horizontally */
+	align-items: center; /* Centers the image vertically */
+}
 
   .centered-ul {
 	display: flex;
@@ -153,6 +165,7 @@ button {
 }
 
 .form-container {
+	padding-top: 10%;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -183,14 +196,17 @@ button {
 	border-radius: 40px;
   }
   
-  footer {
+  .footer {
+	position: fixed;
+	left: 0;
+   	bottom: 0;
+	   padding: 30px;
+   	width: 100%;
 	background-color: #0f0e0e;
     color: #fffcfd;
-	padding: 20px;
-	text-align: center;
-    font-family: Arial, sans-serif;
-    font-size: large;
+	text-align:center;
 }
+
 
 .topnav {
 	overflow: hidden;
