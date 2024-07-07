@@ -164,22 +164,22 @@ button {
 	max-width: 100%; /* Adjust the maximum width as needed */
 }
 
-.form-container {
+/* .form-container {
 	padding-top: 10%;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	border-radius: 100px 100px 100px 100px;
-  }
+  } */
   
-  .form-container input {
+.form-container input {
 	width: 100%;
 	max-width: auto; /* Adjust the maximum width as needed */
 	margin-bottom: 10px;
 	
   }
   
-  .form-container textarea {
+.form-container textarea {
 	justify-content: center; /* Centers the image horizontally */
 	align-items: center; /* Centers the image vertically */
 	width: 100%;
@@ -190,17 +190,18 @@ button {
 .contact-info {
 	background-color: #f2e5e5;
 	padding: 30px;
-	margin-top: 20px;
+	margin-top: 10px;
+	margin-bottom: 20 px;
 	line-height: 1.5;
 	font-size: 24px;
 	border-radius: 40px;
   }
   
-  .footer {
+.footer {
 	position: fixed;
 	left: 0;
    	bottom: 0;
-	   padding: 30px;
+	padding: 30px;
    	width: 100%;
 	background-color: #0f0e0e;
     color: #fffcfd;
