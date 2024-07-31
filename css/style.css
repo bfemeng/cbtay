@@ -8,7 +8,7 @@ body {
 
 header {
 	background-color: #fdf9f9;
-	color: #030303;
+	/* color: #030303; */
 	padding: 40px;
 	border-radius: 80px;
 }
@@ -23,7 +23,9 @@ h1 {
 
 .image-container {
 	text-align: center; /* Centers the image horizontally */
-	border-radius: 50px 50px 50px 50px;
+	border-radius: 50px;
+	padding: 40px;
+	padding-bottom: 140px;
   }
   
 .image-container img {
@@ -208,7 +210,7 @@ button {
 	position: fixed;
 	left: 0;
    	bottom: 0;
-	padding: 30px;
+	padding: 5px;
    	width: 100%;
 	background-color: #0f0e0e;
     color: #fffcfd;
@@ -219,10 +221,10 @@ button {
 .topnav {
 	overflow: hidden;
 	background-color: #000000;
+	text-align: left;
   }
   
   .topnav a {
-	float: left;
 	color: #f2f2f2;
 	text-align: center;
 	padding: 14px 16px;
