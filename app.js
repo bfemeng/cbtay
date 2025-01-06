@@ -23,3 +23,20 @@ document.addEventListener("DOMContentLoaded", function() {
     document.getElementById("myButton").addEventListener("click", sendMail);
 });
 
+// Initialize Granim.js
+var granimInstance = new Granim({
+    element: '#canvas-basic',
+    direction: 'diagonal', // gradient direction
+    isPausedWhenNotInView: true,
+    states: {
+      "default-state": {
+        gradients: [
+          ['#ecbc4e', '#000000'],
+          ['#9f082d', '#ffffff'],
+          ['#000000', '#ffffff']
+        ]
+      }
+    }
+  });
+  
+
