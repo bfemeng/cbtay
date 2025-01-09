@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 // Initialize Granim.js
 var granimInstance = new Granim({
-    element: '#canvas-basic',
+    element: '#footer',
     direction: 'diagonal', // gradient direction
     isPausedWhenNotInView: true,
     states: {
