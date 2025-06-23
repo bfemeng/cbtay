@@ -4,7 +4,12 @@ body {
 	padding: 0;
 	font-family: Arial, sans-serif;
     font-size: larger;
-	background-color: #9F082D;
+	/* background-color: #9F082D; */
+	background-image: url('../images/website\ background.png'); /* Adjust path as needed */
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-position: center 50px; 
 }
 
 main {
@@ -14,6 +19,7 @@ main {
 	align-items: center;
 	height: calc(100vh - 50px); /* Full height minus header */
 }
+
 
 #canvas-basic {
 	display: block;
@@ -25,10 +31,6 @@ main {
   }
 
 /* CARDS */
-body {
-	background-color: #100e17;
-	font-family: 'Open Sans', sans-serif;
-  }
   
   .container {
 	margin-top: 270px;
@@ -342,6 +344,7 @@ button {
 	overflow: hidden;
 	background-color: #e9d4d4;
 	text-align: left;
+	
   }
   
   .topnav a {
@@ -349,21 +352,20 @@ button {
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
-	font-size: 17px;
+	font-size: 27px;
   }
   
   .topnav a:hover {
-	background-color: #9f082d;
+	background-color: #ffffff;
 	color: black;
 	box-shadow: -1rem 0 3rem #000;
+	border-radius: 24px;
   }
   
   .topnav a.active {
 	background-color: #04AA6D;
 	color: white;
   }
-
-
 
 /* SERVICES CARDS */
 
