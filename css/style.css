@@ -20,6 +20,10 @@ main {
 	height: calc(100vh - 50px); /* Full height minus header */
 }
 
+body.about-page {
+	background-image: url('../images/website\ background\ About\ Me\ Page.png');
+  }
+  
 
 #canvas-basic {
 	display: block;
@@ -157,6 +161,7 @@ h1 {
 	max-width: 100%; /* Adjust the maximum width as needed */
 	height: auto; /* Maintains the aspect ratio of the image */
 	border-radius: 50px 50px 50px 50px;
+	border: 3px solid #ffffff;
   }
 
 
