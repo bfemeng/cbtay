@@ -1,60 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
-    
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>Crowned By Tay Consulting LLC</title>
-			<link rel="stylesheet"  href="css/style.css">  
-			<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-			<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
-<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
-
-</html>
-
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services | Crowned By Tay Consulting</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Geist+Mono&display=swap" rel="stylesheet">
+</head>
 <body>
-  <div class="topnav">
-		<!-- <h1>Crowned By Tay Consulting</h1> -->
-		<img src="images/Crowned By Tay Logo.png" alt="Crowned By Tay Logo" height="200" width="220">
-        <a href="index.html" href="target_blank">Home</a>
-        <a href="services.html" href="target_blank">Services</a>
-        <!-- <a href="gallery.html" target="_blank">Gallery</a> -->
-        <a href="contactus.html" target="_blank">Contact</a>
-        <a href="About.html" target="_blank">About</a>
-    </div>
-
-    <p>Check Back Soon</p>
-
-    <!-- <div class="card_1">
-        <img src="img_avatar.png" alt="Avatar" style="width:50%">
-        <div class="container"> 
-          <h4><b>Branding</b></h4>
-          <p>I can help you develop a messaging strategy that clearly communicates your brand’s unique value and separates you from your competitors.</p>
+    <header class="topnav">
+        <div class="logo">
+            <img src="images/Crowned By Tay Logo.png" alt="Logo" height="40">
         </div>
-       </div> -->
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="services.html" style="color: white;">Services</a>
+            <a href="About.html">About</a>
+            <a href="contactus.html">Contact</a>
+        </nav>
+    </header>
 
-      <!-- <div class="card_2"> -->
-        <!-- <img src="img_avatar.png" alt="Avatar" style="width:50%"> -->
-        <!-- <div class="container">
-          <h4><b>Graphic design</b></h4>
-          <p>Need graphic work for your business? I can help! From flyers, to social media templates, to logos, let me help you bring your ideas to life. </p>
+   <main style="padding: 80px 10%; display: flex; flex-direction: column; align-items: center;">
+        
+        <h2 style="font-size: 48px; font-weight: 800; letter-spacing: -1px; margin-bottom: 60px; text-align: center;">
+            Our Expertise
+        </h2>
+        
+        <div class="container" style="padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 30px; width: 100%; max-width: 1200px;">
+            
+            <div class="card">
+                <span style="font-family: var(--font-mono); color: var(--accent); font-size: 19px;">DEPLOY_01</span>
+                <h3>Software Development</h3>
+                <p>Custom web solutions built for speed. We specialize in scalable architectures that grow with your business.</p>
+                <ul class="service-list">
+                    <li>Custom web applications (React, Angular, modern JS)</li>
+                    <li>Website performance optimization</li>
+                    <li>API integrations & automation</li>
+                    <li>Maintenance, enhancements, and scaling</li>
+                </ul>
+                <p><strong>Best for:</strong> Founders who need systems that grow with their business.</p>
+            </div>
+
+            <div class="card">
+                <span style="font-family: var(--font-mono); color: var(--accent); font-size: 19px;">STRAT_02</span>
+                <h3>Business Branding</h3>
+                <p>Developing messaging strategies that clearly communicate your unique value and separate you from competitors.</p>
+                <ul class="service-list">
+                    <li>Brand positioning & messaging</li>
+                    <li>Visual identity direction</li>
+                    <li>Audience clarity & value articulation</li>
+                    <li>Brand audits & refreshes</li>
+                </ul>
+                <p><strong>Best for:</strong> Businesses that struggle to explain what makes them different.</p>
+            </div>
+
+            <div class="card">
+                <span style="font-family: var(--font-mono); color: var(--accent); font-size: 19px;">OPS_03</span>
+                <h3>Operations Management</h3>
+                <p>Streamlining internal processes to eliminate friction and maximize output.</p>
+                <ul class="service-list">
+                    <li>Process mapping & optimization</li>
+                    <li>Workflow automation</li>
+                    <li>Tool selection & implementation</li>
+                    <li>Documentation & SOP development</li>
+                </ul>
+                <p><strong>Best for:</strong> Teams overwhelmed by inefficiency or growing pains.</p>
+            </div>
+
+            <div class="card" style="grid-column: 1 / -1; background: radial-gradient(circle at top left, #111, #000); border: 1px solid var(--accent);">
+                <span style="font-family: var(--font-mono); color: var(--accent); font-size: 19px;">FULL_STACK</span>
+                <h3>End-to-End Consulting</h3>
+                <p>From initial branding to custom software deployment, we provide a unified strategy for the modern entrepreneur.</p>
+                <ul class="service-list" style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px 40px;">
+                    <li>Establish clear brand positioning and vision</li>
+                    <li>Eliminate inefficiencies through intentional systems</li>
+                    <li>Develop scalable software tailored to your business</li>
+                    <li>Deliver a unified strategy connecting all ecosystems</li>
+                </ul>
+                <p style="margin-top: 20px;"><strong>Best for:</strong> Idea to execution: aligning brand, operations, and technology.</p>
+            </div>
         </div>
-      </div> -->
+    </main>
 
-      <!-- <div class="card_3"> -->
-        <!-- <img src="img_avatar.png" alt="Avatar" style="width:50%"> -->
-        <!-- <div class="container">
-          <h4><b>Software Development</b></h4>
-          <p>Looking to create a website for your business? Our software development consulting services can help you achieve your goals.</p>
-        </div>
-      </div>  -->
-    
-
-    <section>
-      <div class="footer">
-        <p>&copy; 2025 Crowned By Tay Consulting LLC. All rights reserved.</p>
-        <h6>"Leadership is never given on a silver platter, one has to earn it." ~ Ellen Johnson Sirleaf ~ Former President of Liberia</h6>
-      </div>
-</section>
-
+      <footer class="footer">
+        <p>&copy; 2026 Crowned By Tay Consulting LLC</p>
+    </footer>
 </body>
+</html>
